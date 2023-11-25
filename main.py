@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from sqlalchemy import create_engine, text
 import os
 
+
 app = FastAPI()
 
 # Conexão com o banco de dados
